@@ -73,10 +73,11 @@ nav {
 .hero-inner {
   position: relative;
   z-index: 2;
-  max-width: 1140px;
+  max-width: 860px;
   margin: 0 auto;
   padding: 5rem 2rem 5rem;
   width: 100%;
+  text-align: center;
 }
 .hero-badge {
   display: inline-flex;
@@ -132,8 +133,10 @@ nav {
   color: var(--text-dim);
   line-height: 1.75;
   margin-bottom: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
 }
-.hero-btns { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 3rem; }
+.hero-btns { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 3rem; justify-content: center; }
 .btn {
   padding: 0.78rem 1.8rem;
   border-radius: 8px;
@@ -166,6 +169,7 @@ nav {
 .hero-loc {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
   color: var(--text-dim);
   font-size: 0.88rem;
